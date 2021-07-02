@@ -1,11 +1,9 @@
+require('dotenv').config()
+
 // import
 const Express = require('express')
-const Dotenv = require('dotenv')
 const Bodyparser = require('body-parser')
 const { httpServer } = require('./servers')
-
-// general config
-Dotenv.config()
 
 // express app
 const App = Express()
